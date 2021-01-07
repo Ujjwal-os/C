@@ -64,7 +64,7 @@ void main ()
 
 void beginsert(){
 	struct node *ptr;
-	ptr=(struct node*)malloc(sizeof(struct node*));
+	ptr=(struct node*)malloc(sizeof(struct node));
 	if(ptr==NULL){
 		printf("overflow!!");
 	}
@@ -81,7 +81,7 @@ void beginsert(){
 
 void lastinsert(){
 	struct node *ptr,*temp;
-	ptr=(struct node*)malloc(sizeof(struct node*));
+	ptr=(struct node*)malloc(sizeof(struct node));
 	if(ptr==NULL){
 		printf("overflow!!");
 	}
@@ -110,7 +110,7 @@ void lastinsert(){
 
 void randominsert(){
 	struct node *ptr,*temp;
-	ptr=(struct node*)malloc(sizeof(struct node*));
+	ptr=(struct node*)malloc(sizeof(struct node));
 	if(ptr==NULL){
 		printf("overflow!!");
 	}
