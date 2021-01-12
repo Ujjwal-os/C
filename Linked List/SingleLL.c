@@ -122,7 +122,7 @@ void randominsert(){
 		printf("Enter location: ");
 		scanf("%d",&loc);
 		temp=head;
-		for(i=0;i<loc;i++)
+		for(i=1;i<loc;i++)
 		{
 			temp=temp->next;
 			if(temp==NULL)
@@ -181,11 +181,11 @@ void random_delete(){
 		printf("Underflow");
 	}
 	else{
-		int loc,i;
+		int loc,i;	
 		printf("Enter location :");
 		scanf("%d",&loc);
 		ptr=head;
-		for(i=0;i<loc;i++){
+		for(i=1;i<loc;i++){
 			ptr1=ptr;
 			ptr=ptr->next;
 			if(ptr==NULL)
